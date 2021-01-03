@@ -1,0 +1,6 @@
+node_modules/
+src/
+package.json
+webpack.config.json
+yarn.lock
+.gitignore
