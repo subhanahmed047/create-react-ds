@@ -18,4 +18,9 @@ module.exports = {
     filename: "index.js",
   },
   plugins: [new CleanWebpackPlugin()],
+  watch: true,
+  mode: "production",
+  watchOptions: {
+    ignored: /node_modules/,
+  },
 };
