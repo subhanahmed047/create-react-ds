@@ -1,12 +1,12 @@
 import React from "react";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <button
       style={{ color: "brown", backgroundColor: "lightgray" }}
       onClick={() => alert("Clicked")}
     >
-      Hello React!
+      {props.children}
     </button>
   );
 };
