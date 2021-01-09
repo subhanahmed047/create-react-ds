@@ -1,6 +1,8 @@
 node_modules/
 src/
 package.json
+package-lock.json
 webpack.config.json
 yarn.lock
 .gitignore
+.babelrc
