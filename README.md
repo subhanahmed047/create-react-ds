@@ -3,7 +3,7 @@ A boilerplate project to build your own Design System or UI library using React 
 
 
 ## Why?
-I recently decided to create a UI library using React JS. I chose to write my styles using [Styled Components](https://styled-components.com/). I came across a few issues while mainly surrounding packaging your library and testing it locally before publishing it to npm. 
+I recently decided to create a UI library using React JS. I chose to write my styles using [Styled Components](https://styled-components.com/). I came across a few issues mainly surrounding packaging your library and testing it locally before publishing it to npm. 
 
 When developing and authoring a UI library, you often find yourself in need of using the work in progress version of your library in other projects that you are working on in your local environment without publishing those packages to the remote registry in order to test if everything is the way you wanted. NPM and Yarn address this issue with a similar approach of [symlinked packages](https://docs.npmjs.com/cli/v6/commands/npm-link) (npm/yarn link). While working with React, if you bundle `react`, and `react-dom` with your library, it leads to many [nasty issues](https://github.com/facebook/react/issues/14257) such as your project throwing erros when there are [two copies](https://reactjs.org/warnings/invalid-hook-call-warning.html#duplicate-react) of React module.
 
