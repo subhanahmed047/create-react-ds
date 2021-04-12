@@ -1,3 +1,7 @@
+[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/does-not-contain-treenuts.svg)]()
+
 # create-react-ds
 A boilerplate project to build your own Design System or UI library using React JS.
 
